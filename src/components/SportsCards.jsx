@@ -5,7 +5,7 @@ import { FaHeart, FaFilter } from 'react-icons/fa';
 const itemsData = [
   { id: 1, name: "Pro Speed Basketball", price: "$45.00", category: "Equipment", tag: "New", img: "/soccer ball in goal (6).jpg" },
   { id: 2, name: "Elite Tennis Racket", price: "$120.00", category: "Tennis", tag: "", img: "/soccer ball in goal (2).jpg" },
-  { id: 3, name: "Impact Soccer Ball", price: "$35.00", category: "Soccer", tag: "Sale", img: "/one.jpg" },
+  { id: 3, name: "Impact Soccer Ball", price: "$35.00", category: "Soccer", tag: "Sale", img: "/one.png" },
   { id: 4, name: "Yoga Mat Premium", price: "$25.00", category: "Fitness", tag: "", img: "/soccer ball in goal (5).jpg" },
   { id: 5, name: "Resistance Bands", price: "$15.00", category: "Fitness", tag: "", img: "/soccer ball in goal (3).jpg" },
   { id: 6, name: "Goalkeeper Gloves", price: "$55.00", category: "Soccer", tag: "", img: "/soccer ball in goal (4).jpg" },
