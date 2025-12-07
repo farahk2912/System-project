@@ -4,8 +4,8 @@ import { BsPlayFill } from 'react-icons/bs';
 
 function ElevateSection() {
   return (
-    <Container className="my-5">
-      <div className="d-flex justify-content-between align-items-end mb-5">
+    <Container className="my-5" id="coaching">
+      <div className="d-flex justify-content-between align-items-end mb-5" >
         <div>
           <Badge bg="light" text="dark" className="mb-2">Sport Challenges</Badge>
           <h2 className="display-5 fw-bold">Elevate your 🏓 experience <br/> with handpicked featured Items.</h2>

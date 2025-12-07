@@ -4,7 +4,7 @@ import { BsApple, BsArrowUpRight } from 'react-icons/bs';
 
 function MotivationSection() {
   return (
-    <Container className="my-5 py-5">
+    <Container className="my-5 py-5" id="events">
       <Row className="align-items-center">
         <Col md={6} className="position-relative">
           <div className="rounded-xxl overflow-hidden">

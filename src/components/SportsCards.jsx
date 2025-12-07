@@ -88,9 +88,12 @@ const ProductSection = ({ title, products }) => {
         <div className="text-center mt-4">
           <Button 
             variant="outline-dark" 
-            className="px-5 py-2 rounded-0"
+            className="px-5 py-2 rounded-0" 
             style={{ letterSpacing: '1px', fontSize: '14px' }}
-          >
+          onClick={() => {
+    const section = document.getElementById("Contactus");
+    section.scrollIntoView({ behavior: "smooth" });
+  }}>
             Contact us
           </Button>
         </div>

@@ -4,8 +4,8 @@ import { Container, Row, Col, Button, Badge } from 'react-bootstrap';
 function ExploreSection() {
   return (
 
-    <Container className="my-5 py-5">
-      <Row className="align-items-center">
+    <Container className="my-5 py-5" >
+      <Row className="align-items-center" >
         <Col md={5}>
           <p className="text-orange fw-bold small text-uppercase">• The Benefit</p>
           <h2 className="display-5 fw-bold mb-4">See 🎾 Your <br/> Order Come to Life.</h2>

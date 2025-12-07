@@ -4,7 +4,7 @@ import { BsArrowRight, BsArrowUpRight } from 'react-icons/bs';
 
 function EventsSection() {
   return (
-    <div className="bg-dark-custom py-5 overflow-hidden">
+    <div className="bg-dark-custom py-5 overflow-hidden" id="membership">
       <Container>
         <Row className="mb-5">
           <Col md={8}>
