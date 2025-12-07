@@ -3,20 +3,20 @@ import { Container, Row, Col, Card, Button } from 'react-bootstrap';
 import { FaHeart, FaFilter } from 'react-icons/fa'; 
 
 const itemsData = [
-  { id: 1, name: "Pro Speed Basketball", price: "$45.00", category: "Equipment", tag: "New", img: "/public/soccer ball in goal (6).jpg" },
-  { id: 2, name: "Elite Tennis Racket", price: "$120.00", category: "Tennis", tag: "", img: "/public/soccer ball in goal (2).jpg" },
-  { id: 3, name: "Impact Soccer Ball", price: "$35.00", category: "Soccer", tag: "Sale", img: "/public/soccer ball in goal (1).jpg" },
-  { id: 4, name: "Yoga Mat Premium", price: "$25.00", category: "Fitness", tag: "", img: "/public/soccer ball in goal (5).jpg" },
-  { id: 5, name: "Resistance Bands", price: "$15.00", category: "Fitness", tag: "", img: "/public/soccer ball in goal (3).jpg" },
-  { id: 6, name: "Goalkeeper Gloves", price: "$55.00", category: "Soccer", tag: "", img: "/public/soccer ball in goal (4).jpg" },
+  { id: 1, name: "Pro Speed Basketball", price: "$45.00", category: "Equipment", tag: "New", img: "/soccer ball in goal (6).jpg" },
+  { id: 2, name: "Elite Tennis Racket", price: "$120.00", category: "Tennis", tag: "", img: "/soccer ball in goal (2).jpg" },
+  { id: 3, name: "Impact Soccer Ball", price: "$35.00", category: "Soccer", tag: "Sale", img: "/one.jpg" },
+  { id: 4, name: "Yoga Mat Premium", price: "$25.00", category: "Fitness", tag: "", img: "/soccer ball in goal (5).jpg" },
+  { id: 5, name: "Resistance Bands", price: "$15.00", category: "Fitness", tag: "", img: "/soccer ball in goal (3).jpg" },
+  { id: 6, name: "Goalkeeper Gloves", price: "$55.00", category: "Soccer", tag: "", img: "/soccer ball in goal (4).jpg" },
 ];
 
 const tshirtsData = [
-  { id: 1, name: "Nike Dri-Fit Tee", price: "$30.00", category: "Running", tag: "New", img: "/public/WhatsApp Image 2025-12-07 at 7.49.16 PM.jpeg" },
-  { id: 2, name: "Adidas Trefoil", price: "$35.00", category: "Casual", tag: "", img: "/public/WhatsApp Image 2025-12-07 at 7.49.17 PM (1).jpeg" },
-  { id: 3, name: "Under Armour Tech", price: "$28.00", category: "Training", tag: "Sale", img: "/public/WhatsApp Image 2025-12-07 at 7.49.17 PM.jpeg" },
-  { id: 4, name: "Puma Essentials", price: "$22.00", category: "Lifestyle", tag: "", img: "/public/WhatsApp Image 2025-12-07 at 7.49.18 PM.jpeg" },
-  { id: 6, name: "GymShark Apex", price: "$40.00", category: "Gym", tag: "Hot", img: "/public/WhatsApp Image 2025-12-07 at 7.51.31 PM.jpeg" },
+  { id: 1, name: "Nike Dri-Fit Tee", price: "$30.00", category: "Running", tag: "New", img: "/WhatsApp Image 2025-12-07 at 7.49.16 PM.jpeg" },
+  { id: 2, name: "Adidas Trefoil", price: "$35.00", category: "Casual", tag: "", img: "/WhatsApp Image 2025-12-07 at 7.49.17 PM (1).jpeg" },
+  { id: 3, name: "Under Armour Tech", price: "$28.00", category: "Training", tag: "Sale", img: "/WhatsApp Image 2025-12-07 at 7.49.17 PM.jpeg" },
+  { id: 4, name: "Puma Essentials", price: "$22.00", category: "Lifestyle", tag: "", img: "/WhatsApp Image 2025-12-07 at 7.49.18 PM.jpeg" },
+  { id: 6, name: "GymShark Apex", price: "$40.00", category: "Gym", tag: "Hot", img: "/WhatsApp Image 2025-12-07 at 7.51.31 PM.jpeg" },
 ];
 
 const ProductCard = ({ product }) => {

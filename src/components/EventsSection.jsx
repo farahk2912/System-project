@@ -38,7 +38,7 @@ function EventsSection() {
             <div className="position-absolute top-0 start-0 w-100 h-100 rounded-xxl overflow-hidden" 
               style={{transform: 'rotate(5deg)', border: '1px solid #333'}}>
               <img 
-                src="/public/download (73).jpg" 
+                src="/download (73).jpg" 
                 className="w-100 h-100 object-fit-cover" alt="Legs Tennis" 
               />
             </div>

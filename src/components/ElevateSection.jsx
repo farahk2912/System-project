@@ -29,7 +29,7 @@ function ElevateSection() {
         </Col>
         <Col md={7}>
           <div className="position-relative rounded-xxl overflow-hidden h-100">
-            <img src="/public/pickleball mornings.jpg" 
+            <img src="/pickleball mornings.jpg" 
               className="w-100 h-100 object-fit-cover" alt="Tennis Court" />
             <div className="position-absolute bottom-0 start-0 p-4 text-black">
               <h3>We will become your <br/> Sports Partner</h3>

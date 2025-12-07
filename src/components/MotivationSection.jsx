@@ -9,7 +9,7 @@ function MotivationSection() {
         <Col md={6} className="position-relative">
           <div className="rounded-xxl overflow-hidden">
             <img 
-              src="/public/Kara Rosenlund - Weekend in Pictures – qualia.jpg" 
+              src="/Kara Rosenlund - Weekend in Pictures – qualia.jpg" 
               className="w-100" alt="Basketball Hoop" 
             />
           </div>
@@ -46,7 +46,7 @@ function MotivationSection() {
             <Col xs="auto">
               <div className="bg-light p-2 rounded-xl d-flex align-items-center gap-2">
                 <img 
-                  src="/public/download (73).jpg" 
+                  src="/download (73).jpg" 
                   className="rounded-circle" width="40" height="40" alt="user" 
                 />
                 <div>
